@@ -9,4 +9,9 @@
     <EditTextPreference
         android:key="text_value_preference"
         android:title="Text Value" />
+
+    <EditTextPreference
+        android:key="pref_commuting_time"
+        android:title="@string/commuting_time"
+        />
 </PreferenceScreen>

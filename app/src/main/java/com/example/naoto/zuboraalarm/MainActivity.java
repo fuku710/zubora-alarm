@@ -17,7 +17,7 @@ import android.widget.Button;
 
  */
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TimetableFragment.OnTimetableListener {
 
     private Button devButton1;
     private Button devButton2;
@@ -90,5 +90,18 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClickTimetableCell(int timePeriod,String day) {
+        // 時限,曜日の情報を送りInputTimetableFragmentを呼び出す
+        Bundle bundle = new Bundle();
+        bundle.putInt("time_period",timePeriod);
+        bundle.putString("day",day);
+        InputTimetableFragment fragment = new InputTimetableFragment();
+        fragment.setArguments(bundle);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container,fragment)
+                .commit();
     }
 }

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">ズボラな私の目覚まし時計</string>
     <string name="settings">設定</string>
+    <string name="commuting_time">通学時間</string>
+    <string name="subject">科目</string>
+    <string name="classroom">教室</string>
+    <string name="teacher">教員</string>
+    <string name="memo">メモ</string>
+
 </resources>
