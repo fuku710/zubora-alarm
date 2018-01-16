@@ -5,27 +5,315 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/dev_text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="この画面は時間割画面です"
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="511dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/dev_input_timetable_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Add(開発用)"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout" />
+
+            <TextView
+                android:id="@+id/Mon"
+                android:layout_width="64dp"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="月"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Tue"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="火"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Wen"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="水"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Thu"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="木"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Fri"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="金"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mon1"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout" />
+
+            <TextView
+                android:id="@+id/Tue1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout" />
+
+            <TextView
+                android:id="@+id/Wen1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Thu1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Fri1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mon2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Tue2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Wen2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Thu2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Fri2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mon3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Tue3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Wen3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Thu3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Fri3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time4"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mon4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Tue4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Wen4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Thu4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Fri4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/time5"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@drawable/textview_layout2"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mon5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Tue5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Wen5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Thu5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/Fri5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/textview_layout"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
 </android.support.constraint.ConstraintLayout>
