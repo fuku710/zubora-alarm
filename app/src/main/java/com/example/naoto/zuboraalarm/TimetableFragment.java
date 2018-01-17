@@ -39,12 +39,158 @@ public class TimetableFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_timetable, container, false);
 
-        view.findViewById(R.id.dev_input_timetable_button).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.Mon1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mListener.onClickTimetableCell(1,"Tue");
+                mListener.onClickTimetableCell(1,"月");
             }
         });
+        view.findViewById(R.id.Mon2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(2,"月");
+            }
+        });
+        view.findViewById(R.id.Mon3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(3,"月");
+            }
+        });
+        view.findViewById(R.id.Mon4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(4,"月");
+            }
+        });
+        view.findViewById(R.id.Mon5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(5,"月");
+            }
+        });
+        view.findViewById(R.id.Tue1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(1,"火");
+            }
+        });
+        view.findViewById(R.id.Tue2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(2,"火");
+            }
+        });
+        view.findViewById(R.id.Tue3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(3,"火");
+            }
+        });
+        view.findViewById(R.id.Tue4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(4,"火");
+            }
+        });
+        view.findViewById(R.id.Tue5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(5,"火");
+            }
+        });
+        view.findViewById(R.id.Wen1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(1,"水");
+            }
+        });
+        view.findViewById(R.id.Wen2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(2,"水");
+            }
+        });
+        view.findViewById(R.id.Wen3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(3,"水");
+            }
+        });
+        view.findViewById(R.id.Wen4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(4,"水");
+            }
+        });
+        view.findViewById(R.id.Wen5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(5,"水");
+            }
+        });
+        view.findViewById(R.id.Thu1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(1,"木");
+            }
+        });
+        view.findViewById(R.id.Thu2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(2,"木");
+            }
+        });
+        view.findViewById(R.id.Thu3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(3,"木");
+            }
+        });
+        view.findViewById(R.id.Thu4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(4,"木");
+            }
+        });
+        view.findViewById(R.id.Thu5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(5,"木");
+            }
+        });
+        view.findViewById(R.id.Fri1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(1,"金");
+            }
+        });
+        view.findViewById(R.id.Fri2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(2,"金");
+            }
+        });
+        view.findViewById(R.id.Fri3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(3,"金");
+            }
+        });
+        view.findViewById(R.id.Fri4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(4,"金");
+            }
+        });
+        view.findViewById(R.id.Fri5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onClickTimetableCell(5,"金");
+            }
+        });
+
+
 
         return view;
     }

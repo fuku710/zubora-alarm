@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZuboraAlarm.iml" filepath="$PROJECT_DIR$/ZuboraAlarm.iml" />
+      <module fileurl="file://C:\Users\genge\AndroidStudioProjects\zubora-alarm\ZuboraAlarm.iml" filepath="C:\Users\genge\AndroidStudioProjects\zubora-alarm\ZuboraAlarm.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zubora-alarm.iml" filepath="$PROJECT_DIR$/zubora-alarm.iml" />
     </modules>
   </component>
 </project>
